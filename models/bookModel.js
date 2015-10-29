@@ -13,6 +13,11 @@ var bookModel = function () {
 		cover: String
 	});
 
+	// shorten text
+	bookSchema.methods.truncText = function (len) {
+		return this.description.substring(0, len);
+	};
+
 	return mongoose.model('Book', bookSchema);
 }
 
