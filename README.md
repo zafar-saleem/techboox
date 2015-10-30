@@ -10,9 +10,10 @@ Fullstack Javascript(Nodejs with Krakenjs framework), MongoDB, CSS, HTML, Founda
 Usage
 ===========
 Clone repository
-Create 'techboox' database in MongoDB.
-Create 'books' and 'categories' collections with following attribute:
+Create `techboox` database in MongoDB.
+Create `books` and `categories` collections with following attribute:
 
+```
 book
 	title: String,
 	category: String,
@@ -24,5 +25,6 @@ book
 
 categories
 	name: String
+```
 
-Now run 'npm start' in techboox root folder.
+Now run `npm start` in techboox root folder.
