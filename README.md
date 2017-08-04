@@ -5,7 +5,7 @@ Bookstore website
 
 Stack
 ===========
-Fullstack Javascript(Nodejs with Krakenjs framework), MongoDB, CSS, HTML, Foundation, Dust templates.
+Fullstack Javascript(Nodejs v5 with Krakenjs framework), MongoDB, CSS, HTML, Foundation, Dust templates.
 
 Usage
 ===========
